@@ -1,0 +1,30 @@
+{
+  "name": "saphyre",
+  "version": "0.0.1",
+  "homepage": "https://github.com/saphyre/saphyre-angular",
+  "authors": [
+    "Sérgio Marcelino <sergiofilhow@gmail.com>"
+  ],
+  "description": "AngularJS Saphyre Components",
+  "license": "MIT",
+  "ignore": [
+    "gulpfile.js",
+    "karma.conf.js",
+    "src/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-material": "~1.0.1",
+    "angular-material-data-table": "~0.9.6",
+    "angular-material-icons": "~0.6.0",
+    "svg-morpheus": "~0.1.8",
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8"
+  },
+  "resolutions": {
+    "angular": "~1.4.9"
+  }
+}
